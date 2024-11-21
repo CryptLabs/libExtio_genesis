@@ -15,7 +15,7 @@ libextio_genesis_la_SOURCES = \
 	si570.c\
 	simpleini-master/ConvertUTF.c
 
-noinst_PROGRAMS = test
-test_SOURCES = main.cpp
+#noinst_PROGRAMS = test
+#test_SOURCES = main.cpp
 test_LDADD = .libs/libextio_genesis.la
 
